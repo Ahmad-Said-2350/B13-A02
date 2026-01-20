@@ -71,6 +71,7 @@ font-style: normal;
         
 
 .banar {
+    
     height: 760px;
     padding: 24px 16px;
     background-position: center top;
@@ -83,12 +84,15 @@ font-style: normal;
 
 
 
-.banar-content .btn1, .btn2{
+.all-2-btn{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 8px;
     
 }
+
+
 
 .div-about{
     padding-left: 20px;
@@ -161,7 +165,24 @@ font-style: normal;
             
         }
 
+        .all-box .box-1, .box-2, .box-3 h1{
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+        .all-box .box-1, .box-2, .box-3 p{
+            font-size: 16px;
+        }
+
+        .title{
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+
+
     footer {
+    
     height: auto;
     padding: 40px 16px;
     background-position: center;
@@ -173,7 +194,9 @@ font-style: normal;
     justify-content: center;
     align-items: center;
     
+    
 }
+
         
 
         
