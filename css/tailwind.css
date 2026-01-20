@@ -10,3 +10,160 @@ font-optical-sizing: auto;
 font-weight: normal;
 font-style: normal;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    /* navbar */
+    nav ul li{
+        display: none;
+    }
+
+    nav .btn-1 {
+        display: none;
+    }
+
+    nav h1{
+        
+        margin-left: -20px;
+    }
+
+        nav .menu{
+            position: absolute;
+            left: 396px;
+        }
+
+    
+
+        
+
+.banar {
+    height: auto;
+    padding: 24px 16px;
+    background-position: center top;
+}
+
+.circle {
+    height: 280px; 
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+        .view{ 
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 40px;
+            justify-content: center;
+            align-items: center;
+            padding-left: 100px;
+            padding-right: 100px;
+        
+        
+            
+            
+        }
+        .all-card{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 40px;
+            justify-content: center;
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        
+            
+        }
+
+        .all-box{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 40px;
+            justify-content: center;
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        
+            
+        }
+        
+
+        
+            
+            
+
+            
+            
+            
+        
+
+        
+
+        
+        
+
+
+        
+
+
+
+
+
+    
+}
+
+@media screen and (min-width:992px) {
+    .menu{
+        display: none;
+    }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
