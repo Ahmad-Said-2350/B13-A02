@@ -74,6 +74,7 @@ font-style: normal;
     
     height: 760px;
     padding: 24px 16px;
+    min-height: 600px;
     background-position: center top;
 }
 
