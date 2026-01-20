@@ -53,15 +53,18 @@ font-style: normal;
         display: none;
     }
 
-    nav h1{
+    nav {
         
-        margin-left: -20px;
-    }
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
 
-        nav .menu{
-            position: absolute;
-            left: 396px;
-        }
+        
+        
+    }
+    
+
+        
 
     
 
