@@ -68,7 +68,7 @@ font-style: normal;
         
 
 .banar {
-    height: auto;
+    height: 760px;
     padding: 24px 16px;
     background-position: center top;
 }
@@ -80,7 +80,25 @@ font-style: normal;
 
 
 
+.banar-content .btn1, .btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
+.div-about{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.div-about h1{
+    font-size: 32px;
+}
+.div-about p{
+    line-height: 20px;
+    font-size: 16px;
+}
 
 
 
@@ -92,14 +110,30 @@ font-style: normal;
             grid-template-columns: repeat(2,1fr);
             gap: 40px;
             justify-content: center;
-            align-items: center;
-            padding-left: 100px;
-            padding-right: 100px;
+            padding-left: 20px;
+            padding-right: 20px;
+            
+            
         
         
             
             
         }
+
+        .view .div1 h1,.div2 h1, .div3 h1,.div4 h1{
+            font-size:40px ;
+        }
+
+        .view .div1 p,.div2 p, .div3 p,.div4 p{
+            font-size: 20px;
+            
+        }
+
+        .view div {
+    padding: 0;
+}
+
+
         .all-card{
             display: grid;
             grid-template-columns: repeat(1,1fr);
@@ -123,31 +157,27 @@ font-style: normal;
         
             
         }
-        
 
-        
-            
-            
+    footer {
+    height: auto;
+    padding: 40px 16px;
+    background-position: center;
+}
 
-            
-            
-            
-        
-
-        
-
-        
-        
-
-
-        
-
-
-
-
-
+.company {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
     
 }
+        
+
+        
+            
+            
+
+            }
 
 @media screen and (min-width:992px) {
     .menu{
